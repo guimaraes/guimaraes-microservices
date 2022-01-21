@@ -11,27 +11,27 @@ Microsserviços com Feign Spring Cloud Netflix Eureka API Gateway Circuit Breake
 
 **Project structure**
 
-**main**<br>
-|<br>
-|<br>____**java**<br>
-|<br>       |
-|<br>       |____configuration
-|<br>       |        |
-|<br>       |        |_____GreetingConfiguration.java
-|<br>       | 
-|<br>       |____controllers
-|<br>       |        |
-|<br>       |        |_____GreetingController.java
-|<br>       |
-|<br>       |____model
-|<br>       |        |
-|<br>       |        |_____Greeting.java
-|<br>       |
-|<br>       |____GreetingServiceApplication.java
-|<br>
-|<br>____**resources**
+**main**
+<br>|
+<br>|____**java**
+<br>|       |
+<br>|       |____configuration
+<br>|       |        |
+<br>|       |        |_____GreetingConfiguration.java
+<br>|       | 
+<br>|       |____controllers
+<br>|       |        |
+<br>|       |        |_____GreetingController.java
+<br>|       |
+<br>|       |____model
+<br>|       |        |
+<br>|       |        |_____Greeting.java
+<br>|       |
+<br>|       |____GreetingServiceApplication.java
+<br>|
+<br>|____**resources**
 <br>    |
-<br>    |____application.yml<br>
+<br>    |____application.yml
 
 
 
