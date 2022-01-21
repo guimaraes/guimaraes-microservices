@@ -2,6 +2,8 @@
 Microsserviços com Feign Spring Cloud Netflix Eureka API Gateway Circuit Breaker Resilience4j Config Server LoadBalancer
 
 ## greeting-service
+*SERVER PORT: 9100*
+
 - JAVA 16
 - Spring Framework 2.5.0-M3
 - Actuator
