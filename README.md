@@ -11,9 +11,9 @@ Microsserviços com Feign Spring Cloud Netflix Eureka API Gateway Circuit Breake
 
 **Project structure**
 
-**main**
+**main**<br>
 |<br>
-|<br>____**java**
+|<br>____**java**<br>
 |<br>       |
 |<br>       |____configuration
 |<br>       |        |
