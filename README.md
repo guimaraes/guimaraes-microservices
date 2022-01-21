@@ -31,9 +31,10 @@ Microsserviços com Feign Spring Cloud Netflix Eureka API Gateway Circuit Breake
 |       |____GreetingServiceApplication.java
 |
 |____**resources**
-    |
-    |____application.yml
-```
+        |
+        |____application.yml
+``` 
+
 
 
 
