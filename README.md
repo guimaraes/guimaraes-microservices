@@ -70,6 +70,19 @@ public class ConfigServerApplication {
 ```ConfigServerApplication``` classe principal do projeto.
 
 
+**Project structure**
+
+```
+main
+|
+|____java
+|       |
+|       |____ConfigServerApplication.java
+|
+|____resources
+        |
+        |____application.yml
+``` 
 
 
 
