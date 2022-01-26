@@ -1,4 +1,4 @@
-package br.com.guimaraes;
+	package br.com.guimaraes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
