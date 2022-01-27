@@ -8,25 +8,25 @@ import org.springframework.stereotype.Component;
 @RefreshScope
 @ConfigurationProperties("greeting-service")
 public class GreetingConfiguration {
-	private String greeting;
-	private String defaultValue;
-	
-	public GreetingConfiguration() {}
+    private String greeting;
+    private String defaultValue;
 
-	public String getGreeting() {
-		return greeting;
-	}
+    public GreetingConfiguration() {}
 
-	public void setGreeting(String greeting) {
-		this.greeting = greeting;
-	}
+    public String getGreeting() {
+        return greeting;
+    }
 
-	public String getDefaultValue() {
-		return defaultValue;
-	}
+    public void setGreeting(String greeting) {
+        this.greeting = greeting;
+    }
 
-	public void setDefaultValue(String defaultValue) {
-		this.defaultValue = defaultValue;
-	}
+    public String getDefaultValue() {
+        return defaultValue;
+    }
+
+    public void setDefaultValue(String defaultValue) {
+        this.defaultValue = defaultValue;
+    }
 
 }

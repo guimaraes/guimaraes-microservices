@@ -1,47 +1,11 @@
 # guimaraes-microservices
 Microsserviços com Feign Spring Cloud Netflix Eureka API Gateway Circuit Breaker Resilience4j Config Server LoadBalancer
 
-## greeting-service
-*SERVER PORT: 9100*
-
-- JAVA 16
-- Spring Framework 2.5.0-M3
-- Actuator
-- Spring Boot
-- Spring Cloud
-- Rest
-
-**Project structure**
-
-```
-main
-|
-|____java
-|       |
-|       |____configuration
-|       |        |
-|       |        |_____GreetingConfiguration.java
-|       | 
-|       |____controllers
-|       |        |
-|       |        |_____GreetingController.java
-|       |
-|       |____model
-|       |        |
-|       |        |_____Greeting.java
-|       |
-|       |____GreetingServiceApplication.java
-|
-|____resources
-        |
-        |____application.yml
-``` 
-
 ## config-server
 *SERVER PORT: 8888*
 
 - JAVA 16
-- Spring Framework 2.5.0-M3
+- Spring Framework 2.5.9
 - Actuator
 - Spring Boot
 - Spring Cloud
@@ -83,6 +47,69 @@ main
         |
         |____application.yml
 ``` 
+
+## greeting-service
+*SERVER PORT: 9100*
+
+- JAVA 16
+- Spring Framework 2.5.0-M3
+- Actuator
+- Spring Boot
+- Spring Cloud
+- Rest
+
+**Project structure**
+
+```
+main
+|
+|____java
+|       |
+|       |____configuration
+|       |        |
+|       |        |_____GreetingConfiguration.java
+|       | 
+|       |____controllers
+|       |        |
+|       |        |_____GreetingController.java
+|       |
+|       |____model
+|       |        |
+|       |        |_____Greeting.java
+|       |
+|       |____GreetingServiceApplication.java
+|
+|____resources
+        |
+        |____application.yml
+``` 
+
+## cambio-service
+*SERVER PORT: 9200*
+
+- JAVA 16
+- Spring Framework 2.5.0-M3
+- Actuator
+- Spring Boot
+- Spring Cloud
+- Rest
+
+
+
+**Project structure**
+
+```
+main
+|
+|____java
+|       |
+|       |____ConfigServerApplication.java
+|
+|____resources
+        |
+        |____application.yml
+``` 
+
 
 
 
