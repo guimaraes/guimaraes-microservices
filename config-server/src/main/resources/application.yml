@@ -19,3 +19,5 @@ spring:
           default-label: main
           search-paths:
           - 'greeting-service*'
+          - 'book-service*'
+          - 'cambio-service*'
