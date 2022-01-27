@@ -30,6 +30,8 @@ public class CambioController {
             @PathVariable("to") String to
             ) {
 
+        System.out.println("Cambio-Service");
+
         var cambio = repository.findByFromAndTo(from, to);
         if (cambio == null) throw new RuntimeException("Currency Unsupported");
 
