@@ -18,6 +18,6 @@ spring:
 #          password: 
           default-label: main
           search-paths:
-          - 'greeting-service*'
-          - 'book-service*'
           - 'cambio-service*'
+          - 'book-service*'
+          - 'greeting-service*'
